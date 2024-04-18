@@ -6,7 +6,7 @@ const connectDB = require("./db/connect");
 const productRouter = require("./Router/product");
 
 require("dotenv").config();
-require('express-async-errors')
+require("express-async-errors");
 
 //middleware
 app.use(express.json());
